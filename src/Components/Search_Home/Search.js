@@ -1,12 +1,5 @@
 import { useState } from "react";
-import {
-  Checkbox,
-  Group,
-  Avatar,
-  Text,
-  TransferList,
-  Button,
-} from "@mantine/core";
+import { Checkbox, Group, Avatar, Text, TransferList } from "@mantine/core";
 
 const mockdata = [
   {
@@ -66,9 +59,6 @@ function Search() {
           item.label.toLowerCase().includes(query.toLowerCase().trim())
         }
       />
-      <Button color={"blue"} size="md" onClick={() => console.log(data[1])}>
-        Get Receipes
-      </Button>
     </>
   );
 }
