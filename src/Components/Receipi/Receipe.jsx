@@ -12,7 +12,6 @@ import {
 } from "@mantine/core";
 import React, { useState } from "react";
 import resp from "../response.json";
-import ReceipeModal from "./ReceipeModal";
 
 function Receipe(prop) {
   const [opened, setOpened] = useState(false);
