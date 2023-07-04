@@ -4,6 +4,7 @@
 
 ## Introduction
 The frontend repository of the Ingrito-food project is responsible for providing the user interface for the web-based virtual recipe book. This documentation will guide you through the front-end application's setup, usage, and features.
+The backend part is available here https://github.com/louremipsum/ingritofood-backend
 
 ## Video Introduction and Demo
 
