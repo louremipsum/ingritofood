@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Ingrito-food
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Ingrito-food banner](https://github.com/louremipsum/ingritofood/assets/72456774/cf7f4b85-0351-44cc-87bf-e1e423cf6b5b)
 
-## Available Scripts
+## Introduction
+The frontend repository of the Ingrito-food project is responsible for providing the user interface for the web-based virtual recipe book. This documentation will guide you through the front-end application's setup, usage, and features.
 
-In the project directory, you can run:
+## Getting Started
+To run the frontend project locally, follow these steps:
 
-### `npm start`
+1) Clone the frontend repository from GitHub.
+2) Install the necessary dependencies using npm or yarn.
+3) Start the development server.
+4) Access the application in your web browser.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
+The frontend application offers the following features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* **Ingredient Input**: Users can input and append the ingredients they have on hand.
+* **Fuzzy Search**: A fuzzy search functionality helps users select ingredients from a long list more easily.
+* **Recipe Filtering**: The application parses through thousands of recipes and filters out the ones that can be cooked with the available ingredients.
+* **Recipe Display**: Filtered recipes are displayed in a grid format, showing basic information about each recipe.
+* **Recipe Details**: Users can select a recipe from the grid to view the full recipe details, including ingredients and concise cooking instructions.
 
-### `npm test`
+## Usage
+1) Launch the Ingrito-food application in your web browser.
+2) Enter the ingredients you have on hand, either by typing them or using the drop-down menu.
+3) Click the "Get Recipes" button to retrieve the recipes that can be made with the entered ingredients.
+4) View the filtered recipes displayed in the grid format.
+5) Click on a recipe to access its full details, including ingredients and cooking instructions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Integration with Backend
+The front end communicates with the backend to retrieve recipe data. It makes API requests to the backend server, which interacts with the Spoonacular API to fetch recipe information based on the entered ingredients. The front end uses Axios, a promise-based HTTP client, to handle the API requests.
 
-### `npm run build`
+## Future Scope
+There are several potential improvements for the front:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Enhance User Interface**: Improve the overall design and user experience of the application.
+* **Additional API Integration**: Integrate more APIs to provide additional recipe information, such as health scores and beverage pairings.
+Error Handling: Implement better error handling mechanisms to provide helpful feedback to users in case of errors.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Video Introduction
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![Ingrito-food](https://github.com/louremipsum/ingritofood/assets/72456774/cee0a8e1-1cd1-4589-bef2-3a867e42447f)](https://www.youtube.com/watch?v=GsfI_1pU-9Y "IngritoFood")
