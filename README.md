@@ -5,6 +5,10 @@
 ## Introduction
 The frontend repository of the Ingrito-food project is responsible for providing the user interface for the web-based virtual recipe book. This documentation will guide you through the front-end application's setup, usage, and features.
 
+## Video Introduction and Demo
+
+https://www.youtube.com/watch?v=GsfI_1pU-9Y
+
 ## Getting Started
 To run the frontend project locally, follow these steps:
 
@@ -38,7 +42,3 @@ There are several potential improvements for the front:
 * **Enhance User Interface**: Improve the overall design and user experience of the application.
 * **Additional API Integration**: Integrate more APIs to provide additional recipe information, such as health scores and beverage pairings.
 Error Handling: Implement better error handling mechanisms to provide helpful feedback to users in case of errors.
-
-## Video Introduction
-
-[![Ingrito-food](https://github.com/louremipsum/ingritofood/assets/72456774/cee0a8e1-1cd1-4589-bef2-3a867e42447f)](https://www.youtube.com/watch?v=GsfI_1pU-9Y "IngritoFood")
