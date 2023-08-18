@@ -8,7 +8,7 @@ The backend part is available here https://github.com/louremipsum/ingritofood-ba
 
 ## Video Introduction and Demo
 
-https://www.youtube.com/watch?v=GsfI_1pU-9Y
+https://www.youtube.com/watch?v=mDNPhIIc8yM
 
 ## Getting Started
 To run the frontend project locally, follow these steps:
